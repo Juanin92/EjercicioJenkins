@@ -10,7 +10,6 @@ pipeline {
         stage('Clonar') {
             steps {
                 git 'https://github.com/Juanin92/EjercicioJenkins'
-
             }
         }
         stage('Compilar') {
