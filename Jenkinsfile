@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clonar') {
             steps {
-                git 'https://github.com/Juanin92/EjercicioJenkins'
+                git branch: 'main', url: 'https://github.com/Juanin92/EjercicioJenkins'
             }
         }
         stage('Compilar') {
